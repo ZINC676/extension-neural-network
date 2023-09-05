@@ -1,0 +1,6 @@
+datasetData:
+  feature_number: 3
+  output_num: 3
+learning_set:
+  epochs: 200
+  learning_rate: 0.07
