@@ -5,6 +5,7 @@ EN / [CN](./README(CN).md)
 
 This is an extension neural network (ENN) training and testing tool designed using Python. It is primarily used to solve linear classification problems. Compared to BP neural networks, its training requires significantly less data and time, and the inference speed is extremely fast, with low memory usage.
 The code mainly refers to the replication of this paper:
+
 Wang M H, Hung C P. Extension neural network and its applications[J]. Neural Networks, 2003, 16(5-6): 779-784.
 ## 2. Usage Steps
 ### 2.1 Preparing the Dataset
