@@ -22,3 +22,5 @@ Wang M H, Hung C P. Extension neural network and its applications[J]. Neural Net
 
 整理好数据后，之后将数据集放到`dataset`文件夹内部，并按照自己数据集和训练需求修改`./cfg/dataset/yaml`，修改完相应的参数后，就可以运行`main.py`进行ENN的训练和测试了，具体的训练和测试结果会以图表和终端输出的形式呈现。
 
+## 3，备注
+代码文件中还有一个`testBP3.py`，使用者在相同的数据集上运行这个程序，对比ENN和BP神经网络的训练速度和精度（ps:记得修改`testBP3.py`中`if __name__ == "__main__": `后面的参数）。
