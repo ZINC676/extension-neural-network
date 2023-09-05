@@ -10,7 +10,8 @@ if __name__ == "__main__":
         utils.read_cfg_tool.read_yaml_data(cfg_path="./cfg/datasets.yaml")  # get training configs from .yaml
 
     train_dataset_path, weight_path = utils.dataset_tools.find_init_weight("dataset/fire_train.txt"
-                                                                           , output_num, feature_num, normalize=False)  # init enn weight values
+                                                                           , output_num, feature_num,
+                                                                           normalize=False)  # init enn weight values
 
     my_enn = model.enn_model.my_enn(train_dataset_path,
                                     weight_path,
