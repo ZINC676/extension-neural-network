@@ -205,7 +205,7 @@ class my_enn:
             if class_pred != int(self.testLabelMat[index]):
                 detect_s = "[**Prediction error**]"
                 Er += 1
-            tb.add_row([index + 1, (class_pred + 1), int(self.testLabelMat[index]), detect_s])
+            tb.add_row([index + 1, (class_pred + 1), int(self.testLabelMat[index]) + 1, detect_s])
 
         time_end = time.process_time()  # record time end
         time_sum = time_end - time_start  # counting time coast
